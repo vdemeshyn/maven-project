@@ -1,0 +1,7 @@
+
+
+I've implemented this auto test using Cucumber - advanced frame for automation.
+The only problem I've faced - cucumber creates methods with 'void' parameter, so I could not use constructions to return any values and use in another methods.
+That's why I had to implement all next steps in new window with new session.
+However, code can be easily imported to TestNG projects.
+Waiting for your review.
