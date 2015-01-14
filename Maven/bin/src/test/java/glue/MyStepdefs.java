@@ -62,7 +62,7 @@ public class MyStepdefs extends Configurations {
 
         String elemCheck = browser.findElement(By.id("result_box")).getText();
 
-        assert elemCheck.matches("zadaniem testu");
+        Assert.assertTrue("Zadaniem testu", elemCheck.contains("Zadaniem testu"));
         browser.close();
 
     }
